@@ -15,7 +15,7 @@
     </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container red bg-blue">
       <div
         class="box"
         style="display: flex"
@@ -31,10 +31,12 @@
       <div class="box">hasnain box 5</div> -->
     </div>
     <script>
-      let div = document.createElement("div");
-      div.innerHTML = "i have been inserted <b> by hasnain</b>";
-      div.setAttribute("class", "created");
-      document.querySelector(".container").remove(div);
+      // let div = document.createElement("div");
+      // div.innerHTML = "i have been inserted <b> by hasnain</b>";
+      // div.setAttribute("class", "created");
+      // document.querySelector(".container").remove(div);
+      let cont = document.querySelector(".container");
+      cont.insertAdjacentHTML("beforebegin", "<b> i belive i am the best i can do whatever i want</b>")
     </script>
   </body>
 </html>
