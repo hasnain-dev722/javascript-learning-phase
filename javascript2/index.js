@@ -266,14 +266,14 @@
 // });
 // document.querySelectorAll(".box").style.backgroundColor = "red";
 
-function randomcolor() {
-  let randmbg = Math.floor(Math.random() * 255);
-  let randmtext = Math.floor(Math.random() * 255);
-  let boxes = document.querySelectorAll(".box");
-  boxes.forEach((e) => {
-    let randombg = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
-    e.style.backgroundColor = randombg;
-  });
-}
-randomcolor();
-// busy dat
+// function randomcolor() {
+//   let randmbg = Math.floor(Math.random() * 255);
+//   let randmtext = Math.floor(Math.random() * 255);
+//   let boxes = document.querySelectorAll(".box");
+//   boxes.forEach((e) => {
+//     let randombg = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
+//     e.style.backgroundColor = randombg;
+//   });
+// }
+// randomcolor();
+
