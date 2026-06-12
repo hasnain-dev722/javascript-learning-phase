@@ -3,40 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>javascript</title>
     <style>
-      /* .box {
-        height: 30px;
-        width: 30px;
-        margin: 30px;
-        padding: 30px;
+      .box {
+        height: 150px;
+        width: 150px;
+        /* margin: 30px;
+        padding: 30px; */
         border: 2px solid black;
-      } */
+        border-radius: 8px;
+      }
     </style>
   </head>
   <body>
     <div class="container red bg-blue">
-      <div
-        class="box"
-        style="display: flex"
-        data-conceptby="hasnain"
-        data-conceptof="javascript"
-      >
-        hasnain box 1
-      </div>
+      <div class="box"></div>
       <!-- <div class="box">hasnain box 2</div>
       <div class="box">hasnain box 2.5</div>
       <div id="redbox" class ="box">hasnain box 3</div>
       <div class="box">hasnain box 4</div>
       <div class="box">hasnain box 5</div> -->
     </div>
-    <script>
+    <script src="javascript2/index.js">
       // let div = document.createElement("div");
       // div.innerHTML = "i have been inserted <b> by hasnain</b>";
       // div.setAttribute("class", "created");
       // document.querySelector(".container").remove(div);
-      let cont = document.querySelector(".container");
-      cont.insertAdjacentHTML("beforebegin", "<b> i belive i am the best i can do whatever i want</b>")
+      // let cont = document.querySelector(".container");
+      // cont.insertAdjacentHTML("beforebegin", "<b> i belive i am the best i can do whatever i want</b>")
     </script>
   </body>
 </html>
