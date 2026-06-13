@@ -290,3 +290,8 @@ else{
     viewscount = views;
 }
 }
+let container = document.querySelector("card-holder");
+let htmlcode = `
+<div class="box" style="background-image: url('${hasnain.jfif}')">
+ <div class="
+`;
