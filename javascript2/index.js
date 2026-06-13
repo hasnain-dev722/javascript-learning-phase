@@ -293,5 +293,10 @@ else{
 let container = document.querySelector("card-holder");
 let htmlcode = `
 <div class="box" style="background-image: url('${hasnain.jfif}')">
- <div class="
+ <div class="duration">${duration}</div>
+ <div class="text-data">
+ <h3>title</h3>
+ <p> ${cName} . ${viewscount} views . ${monthsOld} months ago</p>
+ </div>
+ </div>
 `;
