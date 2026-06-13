@@ -1,18 +1,19 @@
 .box {
   /* background-image: url("hasnain.pngg.jfif"); */
-  display: flex;
+  /* display: flex;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 130px;
-  width: 230px;
+  width: 230px; */
   /* margin: 30px;
         padding: 30px; */
-  border: 2px solid white;
-  border-radius: 8px;
+  /* border: 2px solid white;
+  border-radius: 8px; */
 }
 .container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
@@ -21,4 +22,46 @@
 }
 h3 {
   margin-left: 10px;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+  position: relative;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  font-family: sans-serif;
+}
+.thumbnail-container {
+  position: relative;
+  width: 100%;
+  height: 160px;
+}
+.thumbnail-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.duration {
+  position: absolute;
+  bottom: 55px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2px 5px;
+
+  border-radius: 4px;
+  font-size: 12px;
+}
+.text-data h3 {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.text-data p {
+  margin: 5px 0 0 0;
+  font-size: 12px;
+  color: #aaa;
 }

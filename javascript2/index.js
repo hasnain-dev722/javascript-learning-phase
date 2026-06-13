@@ -309,3 +309,27 @@ createcard(
   "31:20",
   "hasnain.pngg.jfif",
 );
+createcard(
+  "Sigma Web Development azab - video #3",
+  "CodeWithHasnain",
+  980000,
+  9,
+  "61:20",
+  "hasnain.pngg.jfif",
+);
+createcard(
+  "Sigma Web Development khach - video #2",
+  "CodeWithHasnain",
+  850000,
+  8,
+  "91:20",
+  "hasnain.pngg.jfif",
+);
+// createcard(
+//   "Sigma Web Development course - video #1",
+//   "CodeWithHasnain",
+//   560000,
+//   4,
+//   "31:20",
+//   "hasnain.pngg.jfif",
+// );
