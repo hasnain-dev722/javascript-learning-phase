@@ -277,3 +277,16 @@
 // }
 // randomcolor();
 
+
+function createcard(title, cName, views, monthOld, duration, thumbnail) {
+let viewcount;
+if (views>= 1000){
+viewscount = (views / 1000) + "K";
+}
+else if (views>= 1000000){
+    viewscount = (views / 1000) + "M";
+}
+else{
+    viewscount = views;
+}
+}
