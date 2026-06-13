@@ -277,26 +277,35 @@
 // }
 // randomcolor();
 
-
 function createcard(title, cName, views, monthOld, duration, thumbnail) {
-let viewcount;
-if (views>= 1000){
-viewscount = (views / 1000) + "K";
-}
-else if (views>= 1000000){
-    viewscount = (views / 1000) + "M";
-}
-else{
-    viewscount = views;
-}
-}
-let container = document.querySelector("card-holder");
-let htmlcode = `
-<div class="box" style="background-image: url('${hasnain.jfif}')">
+  let viewcount;
+  if (views >= 1000) {
+    viewcount = views / 1000 + "K";
+  } else if (views >= 1000000) {
+    viescount = views / 1000 + "M";
+  } else {
+    viewcount = views;
+  }
+  let container = document.querySelector("#card-holder");
+  let htmlcode = `
+<div class="box">
+<div class="thumbnail container"> 
+<img src="${thumbnail}" alt="thumbnail">
  <div class="duration">${duration}</div>
+ </div>
  <div class="text-data">
- <h3>title</h3>
- <p> ${cName} . ${viewscount} views . ${monthsOld} months ago</p>
+ <h3>${title}</h3>
+ <p> ${cName} . ${viewcount} views . ${monthOld} months ago</p>
  </div>
  </div>
 `;
+  container.innerHTML = container.innerHTML + htmlcode;
+}
+createcard(
+  "Sigma Web Development course - video #1",
+  "CodeWithHasnain",
+  560000,
+  4,
+  "31:20",
+  "hasnain.pngg.jfif",
+);
