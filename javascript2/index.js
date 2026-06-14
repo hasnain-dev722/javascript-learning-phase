@@ -289,7 +289,7 @@ function createcard(title, cName, views, monthOld, duration, thumbnail) {
   let container = document.querySelector("#card-holder");
   let htmlcode = `
 <div class="box">
-<div class="thumbnail container"> 
+<div class="thumbnail-container"> 
 <img src="${thumbnail}" alt="thumbnail">
  <div class="duration">${duration}</div>
  </div>
