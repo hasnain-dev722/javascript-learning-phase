@@ -334,6 +334,6 @@
 //   "hasnain.pngg.jfif",
 // );
 let button = document.getElementById("btn");
-button.addEventlistener("click", () => {
+button.addEventListener("click", () => {
   alert("i was clicked. yaa!!");
 });
