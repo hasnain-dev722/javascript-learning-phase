@@ -277,59 +277,63 @@
 // }
 // randomcolor();
 
-function createcard(title, cName, views, monthOld, duration, thumbnail) {
-  let viewcount;
-  if (views >= 1000) {
-    viewcount = views / 1000 + "K";
-  } else if (views >= 1000000) {
-    viescount = views / 1000 + "M";
-  } else {
-    viewcount = views;
-  }
-  let container = document.querySelector("#card-holder");
-  let htmlcode = `
-<div class="box">
-<div class="thumbnail-container"> 
-<img src="${thumbnail}" alt="thumbnail">
- <div class="duration">${duration}</div>
- </div>
- <div class="text-data">
- <h3>${title}</h3>
- <p> ${cName} . ${viewcount} views . ${monthOld} months ago</p>
- </div>
- </div>
-`;
-  container.innerHTML = container.innerHTML + htmlcode;
-}
-createcard(
-  "Sigma Web Development course - video #1",
-  "CodeWithHasnain",
-  560000,
-  4,
-  "31:20",
-  "hasnain.pngg.jfif",
-);
-createcard(
-  "Sigma Web Development azab - video #3",
-  "CodeWithHasnain",
-  980000,
-  9,
-  "61:20",
-  "hasnain.pngg.jfif",
-);
-createcard(
-  "Sigma Web Development khach - video #2",
-  "CodeWithHasnain",
-  850000,
-  8,
-  "91:20",
-  "hasnain.pngg.jfif",
-);
-createcard(
-  "Sigma Web Development course - video #1",
-  "CodeWithHasnain",
-  560000,
-  4,
-  "31:20",
-  "hasnain.pngg.jfif",
-);
+// function createcard(title, cName, views, monthOld, duration, thumbnail) {
+//   let viewcount;
+//   if (views >= 1000) {
+//     viewcount = views / 1000 + "K";
+//   } else if (views >= 1000000) {
+//     viescount = views / 1000 + "M";
+//   } else {
+//     viewcount = views;
+//   }
+//   let container = document.querySelector("#card-holder");
+//   let htmlcode = `
+// <div class="box">
+// <div class="thumbnail-container">
+// <img src="${thumbnail}" alt="thumbnail">
+//  <div class="duration">${duration}</div>
+//  </div>
+//  <div class="text-data">
+//  <h3>${title}</h3>
+//  <p> ${cName} . ${viewcount} views . ${monthOld} months ago</p>
+//  </div>
+//  </div>
+// `;
+//   container.innerHTML = container.innerHTML + htmlcode;
+// }
+// createcard(
+//   "Sigma Web Development course - video #1",
+//   "CodeWithHasnain",
+//   560000,
+//   4,
+//   "31:20",
+//   "hasnain.pngg.jfif",
+// );
+// createcard(
+//   "Sigma Web Development azab - video #3",
+//   "CodeWithHasnain",
+//   980000,
+//   9,
+//   "61:20",
+//   "hasnain.pngg.jfif",
+// );
+// createcard(
+//   "Sigma Web Development khach - video #2",
+//   "CodeWithHasnain",
+//   850000,
+//   8,
+//   "91:20",
+//   "hasnain.pngg.jfif",
+// );
+// createcard(
+//   "Sigma Web Development course - video #1",
+//   "CodeWithHasnain",
+//   560000,
+//   4,
+//   "31:20",
+//   "hasnain.pngg.jfif",
+// );
+let button = document.getElementById("btn");
+button.addEventlistener("click", () => {
+  alert("i was clicked. yaa!!");
+});
