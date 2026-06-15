@@ -6,6 +6,24 @@
     <!-- <link rel="stylesheet" href="style.css" /> -->
     <title>javascript</title>
   </head>
+  <style>
+    .child {
+      background-color: blue;
+      border: 2px solid black;
+      padding: 34px;
+      margin: 34px;
+    }
+    .childcontainer {
+      background-color: beige;
+      padding: 14px;
+      margin: 14px;
+    }
+    .container {
+      background-color: aqua;
+      padding: 14px;
+      margin: 14px;
+    }
+  </style>
   <body>
     <!-- <div class="container red bg-blue"> -->
     <!-- <div class="container" id="card-holder"></div> -->
@@ -23,9 +41,9 @@
       <button id="btn">change content</button>
     </div> -->
     <div class="container">
-      <span class="child container">
+      <div class="childcontainer">
         <div class="child">i am boss</div>
-      </span>
+      </div>
     </div>
 
     <!-- // let div = document.createElement("div"); // div.innerHTML = "i have been
@@ -36,16 +54,33 @@
     //   i belive i am the best i can do whatever i want</b
     // >") -->
     <script>
-      document.querySelector(".child").addEventListener("contextmenu", () => {
+      document.querySelector(".child").addEventListener("click", (e) => {
+        e.stopPropagation()
         alert("child was clicked");
       });
-      document.querySelector(".child conatiner").addEventListener("contextmenu", () => {
-        alert("child conatiner was clicked");
+      document
+        .querySelector(".childcontainer")
+        .addEventListener("click", (e) => {
+          e.stopPropagation()
+          alert("childconatiner was clicked");
+        });
+      document.querySelector(".container").addEventListener("click", (e) => {
+        e.stopPropagation()
+        alert("container was clicked");
       });
-       document.querySelector(".container").addEventListener("contextmenu", () => {
-  alert("container was clicked");
-});
 
+     setInterval(() => {
+       function randomcolor() {
+  let randmbg = Math.floor(Math.random() * 255);
+  let randmtext = Math.floor(Math.random() * 255);
+  let boxes = document.querySelectorAll(".box");
+  boxes.forEach((e) => {
+    let randombg = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
+    e.style.backgroundColor = randombg;
+  });
+}
+     document.querySelector(".container").style.background = "red" 
+     }, 3000);
     </script>
   </body>
 </html>
