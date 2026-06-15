@@ -335,7 +335,11 @@
 // );
 let button = document.getElementById("btn");
 // https://developer.mozilla.org/en-US/docs/Web/API/Element#mouse_events
-button.addEventListener("click", () => {
+// list of all mouse events
+button.addEventListener("dblclick", () => {
   document.querySelector(".box").innerHTML =
     "<b>yai you were clicked</b> enjoy it";
+});
+button.addEventListener("contextmenu", () => {
+  alert("dont hack us by bright clicked please");
 });
