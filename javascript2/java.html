@@ -55,32 +55,35 @@
     // >") -->
     <script>
       document.querySelector(".child").addEventListener("click", (e) => {
-        e.stopPropagation()
+        e.stopPropagation();
         alert("child was clicked");
       });
       document
         .querySelector(".childcontainer")
         .addEventListener("click", (e) => {
-          e.stopPropagation()
+          e.stopPropagation();
           alert("childconatiner was clicked");
         });
       document.querySelector(".container").addEventListener("click", (e) => {
-        e.stopPropagation()
+        e.stopPropagation();
         alert("container was clicked");
       });
 
-     setInterval(() => {
-       function randomcolor() {
-  let randmbg = Math.floor(Math.random() * 255);
-  let randmtext = Math.floor(Math.random() * 255);
-  let boxes = document.querySelectorAll(".box");
-  boxes.forEach((e) => {
-    let randombg = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
-    e.style.backgroundColor = randombg;
-  });
-}
-     document.querySelector(".container").style.background = "red" 
-     }, 3000);
+        function randomcolor() {
+          let randmbg = Math.floor(Math.random() * 255);
+          let randmtext = Math.floor(Math.random() * 255);
+          let boxes = document.querySelectorAll(".box");
+          boxes.forEach((e) => {
+            let randombg = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
+            e.style.backgroundColor = randombg;
+          });
+          return`rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
+        }
+        let a = setTimeout(() => {
+        document.querySelector(".container").style.backgroundColor = 
+          randomcolor();
+      }, 5000);
+      console.log(a);
     </script>
   </body>
 </html>
