@@ -18,9 +18,14 @@
       <div class="box">hasnain box 4</div>
       <div class="box">hasnain box 5</div> -->
     <!-- </div> -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="box">i am don</div>
       <button id="btn">change content</button>
+    </div> -->
+    <div class="container">
+      <span class="child container">
+        <div class="child">i am boss</div>
+      </span>
     </div>
 
     <!-- // let div = document.createElement("div"); // div.innerHTML = "i have been
@@ -30,6 +35,17 @@
     // cont.insertAdjacentHTML("beforebegin", "<b>
     //   i belive i am the best i can do whatever i want</b
     // >") -->
-    <script src="index.js"></script>
+    <script>
+      document.querySelector(".child").addEventListener("contextmenu", () => {
+        alert("child was clicked");
+      });
+      document.querySelector(".child conatiner").addEventListener("contextmenu", () => {
+        alert("child conatiner was clicked");
+      });
+       document.querySelector(".container").addEventListener("contextmenu", () => {
+  alert("container was clicked");
+});
+
+    </script>
   </body>
 </html>

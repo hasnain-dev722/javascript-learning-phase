@@ -343,3 +343,6 @@ button.addEventListener("dblclick", () => {
 button.addEventListener("contextmenu", () => {
   alert("dont hack us by bright clicked please");
 });
+document.addEventListener("keydown", (e) => {
+  console.log(e.key, e.keyCode);
+});
