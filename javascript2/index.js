@@ -334,6 +334,8 @@
 //   "hasnain.pngg.jfif",
 // );
 let button = document.getElementById("btn");
+// https://developer.mozilla.org/en-US/docs/Web/API/Element#mouse_events
 button.addEventListener("click", () => {
-  alert("i was clicked. yaa!!");
+  document.querySelector(".box").innerHTML =
+    "<b>yai you were clicked</b> enjoy it";
 });
