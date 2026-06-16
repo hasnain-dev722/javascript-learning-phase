@@ -383,3 +383,8 @@ if (Math.random() < 0.1) {
       console.log(a - b);
     }
 }
+
+let a = 8+3;
+if(a>11){
+    console.log(big)
+}
