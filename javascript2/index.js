@@ -397,9 +397,21 @@
 //     }
 //  }
 // checkvotinage(17);
-function printevennumbers(){
-    for(let i= 1; i <=10; i++){
-        console.log(i*2)
+// function printevennumbers(){
+//     for(let i= 1; i <=10; i++){
+//         console.log(i*2)
+//     }
+// }
+// printevennumbers()
+function simplesac(num1, num2, action){
+    if(action === "multiply"){
+        console.log(num1 * num2);
+    }
+    else if(action === "divide"){
+        console.log(num1/ num2)
+    }
+    else{
+        console.log("unknown action!")
     }
 }
-printevennumbers()
+simplesac(4, 5, "multiply")
