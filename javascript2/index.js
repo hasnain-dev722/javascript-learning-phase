@@ -346,15 +346,24 @@
 // document.addEventListener("keydown", (e) => {
 //   console.log(e.key, e.keyCode);
 // });
-function name(bhao) {
-    let msg1 = (bhao + " tu genius ha");
-    let msg2= (bhao + " mai boss hu");
-    let msg3 = (bhao + " mai talented hu");
+// function name(bhao) {
+//     let msg1 = bhao + " tu genius ha";
+//     let msg2= bhao + " mai boss hu";
+//     let msg3 = bhao + " mai talented hu";
 
-    return(msg1);
-    return(msg2);
-    return(msg3);
-    let result =("yai result ha bahi" + result)
+//     return  [msg1, msg2, msg3];
+// }
+//  let result = name("bhao");
+// console.log(result[0]);
+// console.log(result[1]);
+// console.log(result[2]);
 
-}
-console.log("abbas");
+// function bolojani (name) {
+//  return name + "jani"
+// }
+// let result = bolojani("hasnain")
+// console.log(result);
+
+const bhai = (name) => name + "jani"
+let result = bhai("hasnain");
+console.log(result)
