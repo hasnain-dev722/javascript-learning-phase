@@ -368,23 +368,33 @@
 // let result = bhai("hasnain");
 // console.log(result)
 
-let a = 5;
-let b = 8;
-let operator = "+";
-if (Math.random() < 0.1) {
-  if (operator === "+") {
-    console.log(a - b);
-  } else if (operator === "-") {
-    console.log(a + b);
-  } }else {
-    if (operator === "+") {
-      console.log(a + b);
-    } else if (operator === "-") {
-      console.log(a - b);
-    }
-}
+// let a = 5;
+// let b = 8;
+// let operator = "+";
+// if (Math.random() < 0.1) {
+//   if (operator === "+") {
+//     console.log(a - b);
+//   } else if (operator === "-") {
+//     console.log(a + b);
+//   } }else {
+//     if (operator === "+") {
+//       console.log(a + b);
+//     } else if (operator === "-") {
+//       console.log(a - b);
+//     }
+// }
 
-let a = 8+3;
-if(a>11){
-    console.log(big)
-}
+// // let a = 8+3;
+// // if(a>11){
+// //     console.log(big)
+// }
+//  function checkvotinage(age){
+//     if(age >=18){
+//         console.log("you can vote")
+//     }
+//     else{
+//         console.log("to young to vote")
+//     }
+//  }
+// checkvotinage(17);
+function printevennumbers
