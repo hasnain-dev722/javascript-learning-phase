@@ -364,6 +364,22 @@
 // let result = bolojani("hasnain")
 // console.log(result);
 
-const bhai = (name) => name + "jani"
-let result = bhai("hasnain");
-console.log(result)
+// const bhai = (name) => name + "jani"
+// let result = bhai("hasnain");
+// console.log(result)
+
+let a = 5;
+let b = 8;
+let operator = "+";
+if (Math.random() < 0.1) {
+  if (operator === "+") {
+    console.log(a - b);
+  } else if (operator === "-") {
+    console.log(a + b);
+  } }else {
+    if (operator === "+") {
+      console.log(a + b);
+    } else if (operator === "-") {
+      console.log(a - b);
+    }
+}
