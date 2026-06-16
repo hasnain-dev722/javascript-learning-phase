@@ -346,3 +346,15 @@
 // document.addEventListener("keydown", (e) => {
 //   console.log(e.key, e.keyCode);
 // });
+function name(bhao) {
+    let msg1 = (bhao + " tu genius ha");
+    let msg2= (bhao + " mai boss hu");
+    let msg3 = (bhao + " mai talented hu");
+
+    return(msg1);
+    return(msg2);
+    return(msg3);
+    let result =("yai result ha bahi" + result)
+
+}
+console.log("abbas");
