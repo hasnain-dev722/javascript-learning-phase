@@ -415,8 +415,9 @@ function simplesac(num1, num2, action){
     }
 }
 simplesac(4, 5, "multiply")
-today was very busy day
-i was in another city
-still manage to push
-my github dots
-never give up
+// today was very busy day
+// i was in another city
+// still manage to push
+// my github dots
+// never give up
+never ever
