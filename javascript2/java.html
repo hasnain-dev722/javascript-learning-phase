@@ -6,7 +6,7 @@
     <!-- <link rel="stylesheet" href="style.css" /> -->
     <title>javascript</title>
   </head>
-  <style>
+  <!-- <style>
     .child {
       background-color: blue;
       border: 2px solid black;
@@ -23,7 +23,7 @@
       padding: 14px;
       margin: 14px;
     }
-  </style>
+  </style> -->
   <body>
     <!-- <div class="container red bg-blue"> -->
     <!-- <div class="container" id="card-holder"></div> -->
@@ -40,11 +40,11 @@
       <div class="box">i am don</div>
       <button id="btn">change content</button>
     </div> -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="childcontainer">
         <div class="child">i am boss</div>
       </div>
-    </div>
+    </div> -->
 
     <!-- // let div = document.createElement("div"); // div.innerHTML = "i have been
     // inserted <b> by hasnain</b>"; // div.setAttribute("class", "created"); //
@@ -53,37 +53,38 @@
     // cont.insertAdjacentHTML("beforebegin", "<b>
     //   i belive i am the best i can do whatever i want</b
     // >") -->
-    <script>
-      document.querySelector(".child").addEventListener("click", (e) => {
-        e.stopPropagation();
-        alert("child was clicked");
-      });
-      document
-        .querySelector(".childcontainer")
-        .addEventListener("click", (e) => {
-          e.stopPropagation();
-          alert("childconatiner was clicked");
-        });
-      document.querySelector(".container").addEventListener("click", (e) => {
-        e.stopPropagation();
-        alert("container was clicked");
-      });
+    <script src="index.js">
+      // document.querySelector(".child").addEventListener("click", (e) => {
+      //   e.stopPropagation();
+      //   alert("child was clicked");
+      // });
+      // document
+      //   .querySelector(".childcontainer")
+      //   .addEventListener("click", (e) => {
+      //     e.stopPropagation();
+      //     alert("childconatiner was clicked");
+      //   });
+      // document.querySelector(".container").addEventListener("click", (e) => {
+      //   e.stopPropagation();
+      //   alert("container was clicked");
+      // });
 
-        function randomcolor() {
-          let randmbg = Math.floor(Math.random() * 255);
-          let randmtext = Math.floor(Math.random() * 255);
-          let boxes = document.querySelectorAll(".box");
-          boxes.forEach((e) => {
-            let randombg = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
-            e.style.backgroundColor = randombg;
-          });
-          return`rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
-        }
-        let a = setTimeout(() => {
-        document.querySelector(".container").style.backgroundColor = 
-          randomcolor();
-      }, 5000);
-      console.log(a);
+      //   function randomcolor() {
+      //     let randmbg = Math.floor(Math.random() * 255);
+      //     let randmtext = Math.floor(Math.random() * 255);
+      //     let boxes = document.querySelectorAll(".box");
+      //     boxes.forEach((e) => {
+      //       let randombg = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
+      //       e.style.backgroundColor = randombg;
+      //     });
+      //     return`rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
+      //   }
+      //   let a = setTimeout(() => {
+      //   document.querySelector(".container").style.backgroundColor = 
+      //     randomcolor();
+      // }, 5000);
+      // console.log(a);
+
     </script>
   </body>
 </html>

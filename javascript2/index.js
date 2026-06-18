@@ -403,21 +403,29 @@
 //     }
 // }
 // printevennumbers()
-function simplesac(num1, num2, action){
-    if(action === "multiply"){
-        console.log(num1 * num2);
-    }
-    else if(action === "divide"){
-        console.log(num1/ num2)
-    }
-    else{
-        console.log("unknown action!")
-    }
-}
-simplesac(4, 5, "multiply")
+// function simplesac(num1, num2, action){
+//     if(action === "multiply"){
+//         console.log(num1 * num2);
+//     }
+//     else if(action === "divide"){
+//         console.log(num1/ num2)
+//     }
+//     else{
+//         console.log("unknown action!")
+//     }
+// }
+// simplesac(4, 5, "multiply")
 // today was very busy day
 // i was in another city
 // still manage to push
 // my github dots
 // never give up
-never ever
+// never ever
+
+console.log("hasnain is a hacker");
+console.log("zaibi is a hecker");
+
+setTimeout(() => {
+    console.log("i am inside timeout")
+}, 2000);
+console.log("the end");
