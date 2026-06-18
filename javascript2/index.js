@@ -433,14 +433,19 @@ setTimeout(() => {
 }, 2000);
 console.log("the end");
 
+const fn = () => {
+  console.log("nothing")
+}
+
 const callback=(arg) => {
 console.log(arg);
+fn()
 }
 
 const loadscript = (src, callback) => {
     let sc = document.createElement("script");
     sc.src = src;
-     sc.onload = callback("hasnain");
+     sc.onload = callback("hasnain", fn);
     document.head.append(sc);
     }
     loadscript(
