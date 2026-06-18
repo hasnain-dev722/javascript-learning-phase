@@ -422,6 +422,7 @@
 // never give up
 // never ever
 // learning js promises
+// learning js callback
 console.log("hasnain is a hacker");
 console.log("zaibi is a hecker");
 
