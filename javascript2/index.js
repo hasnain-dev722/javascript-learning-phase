@@ -421,7 +421,7 @@
 // my github dots
 // never give up
 // never ever
-
+// learning js promises
 console.log("hasnain is a hacker");
 console.log("zaibi is a hecker");
 
