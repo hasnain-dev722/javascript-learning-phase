@@ -1,4 +1,12 @@
-console.log("hello world")
-console.log("code is running")
-console.log("code is also running")
-console.log("code is also looking like a wow")
+console.log('this is promises');
+let prom1 = new promises((resolve,reject)=>{
+    setTimeout(() =>{
+     console.log('yes i am done');
+     resolve("hasnain")
+    }, 3000);
+
+})
+prom1.then(() =>{
+    console.log(a);
+    
+});
