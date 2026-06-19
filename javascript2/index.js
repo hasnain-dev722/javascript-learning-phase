@@ -425,6 +425,7 @@
 // learning js callback
 // solve some exercises
 // learn callbacks 
+// learn promises
 console.log("hasnain is a hacker");
 console.log("zaibi is a hecker");
 
