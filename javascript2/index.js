@@ -487,22 +487,32 @@
 // let userdata = welcomeuser("hasnain")
 // console.log(userdata);
 
-const printbio = (city, age) => {
-  if(city==="lahore"&&age===19){
-    return `main ${city} mai rahta hu meri umer ${age} sal ha `;
-  }else{
-    return "jani zabardast kr rha ha tu"
-  }
-}
-let userdata = printbio("lahore", 19)
-console.log(userdata)
+// const printbio = (city, age) => {
+//   if(city==="lahore"&&age===19){
+//     return `main ${city} mai rahta hu meri umer ${age} sal ha `;
+//   }else{
+//     return "jani zabardast kr rha ha tu"
+//   }
+// }
+// let userdata = printbio("lahore", 19)
+// console.log(userdata)
  
-const verifyemail = (email)=>{
-  if(email.includes("a")){
-    return `email sahi ha`
+// const verifyemail = (email)=>{
+//   if(email.includes("a")){
+//     return `email sahi ha`
+//   }else{
+//     return `galat ha`
+//   }
+// }
+// let data = verifyemail('a')
+// console.log(data)
+
+const checkwordlenght = (jani)=>{
+  if(jani.length<5){
+    return `bada ha boss`
   }else{
-    return `galat ha`
+    return `chota ha `
   }
 }
-let data = verifyemail('a')
-console.log(data)
+let data = checkwordlenght("hasnain")
+console.log(data);
