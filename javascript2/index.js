@@ -496,3 +496,13 @@ const printbio = (city, age) => {
 }
 let userdata = printbio("lahore", 19)
 console.log(userdata)
+ 
+const verifyemail = (email)=>{
+  if(email.includes("a")){
+    return `email sahi ha`
+  }else{
+    return `galat ha`
+  }
+}
+let data = verifyemail('a')
+console.log(data)
