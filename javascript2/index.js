@@ -507,12 +507,22 @@
 // let data = verifyemail('a')
 // console.log(data)
 
-const checkwordlenght = (jani)=>{
-  if(jani.length<5){
-    return `bada ha boss`
+// const checkwordlenght = (jani)=>{
+//   if(jani.length<5){
+//     return `bada ha boss`
+//   }else{
+//     return `chota ha `
+//   }
+// }
+// let data = checkwordlenght("hasnain")
+// console.log(data);
+
+const checkindex = (name)=>{
+  if(name[0]==="h"){
+    return `millionare ka name ha`
   }else{
-    return `chota ha `
+    return `nahi bhai wo wala maza nahi ha`
   }
 }
-let data = checkwordlenght("hasnain")
-console.log(data);
+let result = checkindex(`hasnain`)
+console.log(result)
