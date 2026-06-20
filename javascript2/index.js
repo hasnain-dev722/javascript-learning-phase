@@ -455,24 +455,34 @@
 //   "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js", callback
 // );
     
-  const checkage = (age) => {
-    if (age > 18){
-      return "tum bnwa lo"
-    }else{
-     return  "to young mera bacha"
-    }
-  }
+//   const checkage = (age) => {
+//     if (age > 18){
+//       return "tum bnwa lo"
+//     }else{
+//      return  "to young mera bacha"
+//     }
+//   }
   
-  let resultage = checkage(17);
-  console.log(resultage);
+//   let resultage = checkage(17);
+//   console.log(resultage);
   
 
-const getdiscount = (billamount) =>{
-  if(billamount > 2000){
-    return "dai dai meri jan ko 500 ka discount"
-  }else{
-    return "koi discount ni milna "
-  }
+// const getdiscount = (billamount) =>{
+//   if(billamount > 2000){
+//     return "dai dai meri jan ko 500 ka discount"
+//   }else{
+//     return "koi discount ni milna "
+//   }
+// }
+// let resultbillamount= getdiscount(3000);
+// console.log(resultbillamount);
+
+const welcomeuser = (username)=>{
+  if (username ==="zeshan"){
+    return "welcome" + username
+}else{
+  return "wrong password"
 }
-let resultbillamount= getdiscount(3000);
-console.log(resultbillamount);
+}
+let userdata = welcomeuser("zeshan")
+console.log(userdata);
