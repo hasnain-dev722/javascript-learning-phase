@@ -477,12 +477,22 @@
 // let resultbillamount= getdiscount(3000);
 // console.log(resultbillamount);
 
-const welcomeuser = (username)=>{
-  if (username ==="zeshan"){
-    return "welcome" + username
-}else{
-  return "wrong password"
+// const welcomeuser= (username)=>{
+//   if (username ==="zeshan"){
+//     return `welcome ${username}`;
+// }else{
+//   return "wrong password"
+// }
+// }
+// let userdata = welcomeuser("hasnain")
+// console.log(userdata);
+
+const printbio = (city, age) => {
+  if(city==="lahore"&&age===19){
+    return `main ${city} mai rahta hu meri umer ${age} sal ha `;
+  }else{
+    return "jani zabardast kr rha ha tu"
+  }
 }
-}
-let userdata = welcomeuser("zeshan")
-console.log(userdata);
+let userdata = printbio("lahore", 19)
+console.log(userdata)
