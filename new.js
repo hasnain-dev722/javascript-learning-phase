@@ -30,13 +30,13 @@
 //     console.log(err)
 // });
 
- async function getdata(){
-return new Promise((resolve, reject)=>{
- setTimeout(()=>{
-  reject(455)
- }, 3500);
-})
-}
+//  async function getdata(){
+// return new Promise((resolve, reject)=>{
+//  setTimeout(()=>{
+//   reject(455)
+//  }, 3500);
+// })
+// }
 async function getdata() {
   let x = await fetch("https://jsonplaceholder.typicode.com/todos/1")
   let data = await x.json()
@@ -50,13 +50,11 @@ console.log("loading modules")
 console.log("do something else")
 
 console.log("load data")
-try {
 let data = await getdata()
 console.log(data)
-}
-catch{
-  console.log("program war gya")
-}
+
+console.log("program war gya")
+
 console.log("process data")
 
  console.log("hasnain")
