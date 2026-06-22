@@ -542,3 +542,4 @@ let wallet = [10,20,30, 50,100,200,500,1000]
 logic(wallet)
 console.log('last wallet:', wallet);
 // today session completed 
+// complete some exercises
