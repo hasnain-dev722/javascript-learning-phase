@@ -83,10 +83,24 @@
 // console.log("abbas")
 // })
 
- function arrays (name){
-  for (let i = 0; i<name.length; i++){
-    console.log(name[i]*2)
+//  function arrays (name){
+//   for (let i = 0; i<name.length; i++){
+//     console.log(name[i]*2)
+//   }
+//  }
+//  let mynumber = [10, 20, 30, 40, 50]
+//  arrays(mynumber)
+
+function names (dost){
+  for(let i = 0; i<dost.length; i++){
+  
+  if(dost[i]=== "ali"){
+    console.log(`ali nu  andar anai daina`)
+  }else{
+    console.log(dost[i])
   }
- }
- let mynumber = [10, 20, 30, 40, 50]
- arrays(mynumber)
+}
+}
+let yar = ["hasnain", "zaibi","ali", "rizwan"]
+yar.pop()
+names(yar)
