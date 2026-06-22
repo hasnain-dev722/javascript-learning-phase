@@ -533,8 +533,11 @@ function logic (building){
       console.log(`real ha `)
     }else{
       console.log(`war gya program`)
+      building[i-1] = 0;
+      console.log(`saza mili paisaa kat`)
     }
   }
 }
 let wallet = [10,20,30, 50,100,200,500,1000]
 logic(wallet)
+console.log('last wallet:', wallet);
