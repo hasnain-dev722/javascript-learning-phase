@@ -37,41 +37,41 @@
 //  }, 3500);
 // })
 // }
-async function getdata() {
-  // let x = await fetch("https://jsonplaceholder.typicode.com/todos/1")
-  let x = await fetch("https://jsonplaceholder.typicode.com/posts", {
-    method: "POST",
-    body: JSON.stringify({
-      title: "foo",
-      body: "bar",
-      userId: 1,
-    }),
-    headers: {
-      "Content-type": "application/json; charset=UTF-8",
-    },
-  })
-  let data = await x.json()
-    console.log(data)
-   return 455
-  }
-async function main() {
+// async function getdata() {
+//   // let x = await fetch("https://jsonplaceholder.typicode.com/todos/1")
+//   let x = await fetch("https://jsonplaceholder.typicode.com/posts", {
+//     method: "POST",
+//     body: JSON.stringify({
+//       title: "foo",
+//       body: "bar",
+//       userId: 1,
+//     }),
+//     headers: {
+//       "Content-type": "application/json; charset=UTF-8",
+//     },
+//   })
+//   let data = await x.json()
+//     console.log(data)
+//    return 455
+//   }
+// async function main() {
   
-console.log("loading modules")
+// console.log("loading modules")
 
-console.log("do something else")
+// console.log("do something else")
 
-console.log("load data")
-let data = await getdata()
-console.log(data)
+// console.log("load data")
+// let data = await getdata()
+// console.log(data)
 
-console.log("program war gya")
+// console.log("program war gya")
 
-console.log("process data")
+// console.log("process data")
 
- console.log("hasnain")
- console.log("abbas")
-}
-main()
+//  console.log("hasnain")
+//  console.log("abbas")
+// }
+// main()
 
 // data.then((v)=>{
 
@@ -82,3 +82,11 @@ main()
 // console.log("hasnain")
 // console.log("abbas")
 // })
+
+ function arrays (name){
+  for (let i = 0; i<name.length; i++){
+    console.log(name[i]*2)
+  }
+ }
+ let mynumber = [10, 20, 30, 40, 50]
+ arrays(mynumber)
