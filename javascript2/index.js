@@ -526,14 +526,13 @@
 // }
 // let result = checkindex(`hasnain`)
 // console.log(result)
-
+let aslenotes = [10, 50, 100, 200, 500, 1000];
 function logic (building){
   for(let i = 0;i<building.length;i++){
-    let aslenotes =[10,50,100,200,500,1000]
     if(aslenotes.includes(building[i])) {
       console.log(`real ha `)
     }else{
-      console.log(building[i]`war gya program`)
+      console.log(`war gya program`)
     }
   }
 }
