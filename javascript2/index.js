@@ -517,12 +517,25 @@
 // let data = checkwordlenght("hasnain")
 // console.log(data);
 
-const checkindex = (name)=>{
-  if(name[0]==="h"){
-    return `millionare ka name ha`
-  }else{
-    return `nahi bhai wo wala maza nahi ha`
+// const checkindex = (name)=>{
+//   if(name[0]==="h"){
+//     return `millionare ka name ha`
+//   }else{
+//     return `nahi bhai wo wala maza nahi ha`
+//   }
+// }
+// let result = checkindex(`hasnain`)
+// console.log(result)
+
+function logic (building){
+  for(let i = 0;i<building.length;i++){
+    let aslenotes =[10,50,100,200,500,1000]
+    if(aslenotes.includes(building[i])) {
+      console.log(`real ha `)
+    }else{
+      console.log(building[i]`war gya program`)
+    }
   }
 }
-let result = checkindex(`hasnain`)
-console.log(result)
+let wallet = [10,20,30, 50,100,200,500,1000]
+logic(wallet)
