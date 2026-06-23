@@ -578,7 +578,8 @@ let users = [
 ];
 let newarray = users.map((logicsala) => {
   if (logicsala.chakra >=8000) {
-    console.log(`you are now chunin`);
+    // console.log(`you are now chunin`);
+    logicsala.rank = "junin"
   } else {
     // console.log(`you were blocked`)
     logicsala.rank = "still junin";
