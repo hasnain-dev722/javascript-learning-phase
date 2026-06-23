@@ -424,7 +424,7 @@
 // learning js promises
 // learning js callback
 // solve some exercises
-// learn callbacks 
+// learn callbacks
 // learn promises
 // learn snippet
 
@@ -454,7 +454,7 @@
 //     loadscript(
 //   "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js", callback
 // );
-    
+
 //   const checkage = (age) => {
 //     if (age > 18){
 //       return "tum bnwa lo"
@@ -462,10 +462,9 @@
 //      return  "to young mera bacha"
 //     }
 //   }
-  
+
 //   let resultage = checkage(17);
 //   console.log(resultage);
-  
 
 // const getdiscount = (billamount) =>{
 //   if(billamount > 2000){
@@ -496,7 +495,7 @@
 // }
 // let userdata = printbio("lahore", 19)
 // console.log(userdata)
- 
+
 // const verifyemail = (email)=>{
 //   if(email.includes("a")){
 //     return `email sahi ha`
@@ -526,20 +525,25 @@
 // }
 // let result = checkindex(`hasnain`)
 // console.log(result)
-let aslenotes = [10, 50, 100, 200, 500, 1000];
-function logic (building){
-  for(let i = 0;i<building.length;i++){
-    if(aslenotes.includes(building[i])) {
-      console.log(`real ha `)
-    }else{
-      console.log(`war gya program`)
-      building[i-1] = 0;
-      console.log(`saza mili paisaa kat`)
-    }
-  }
-}
-let wallet = [10,20,30, 50,100,200,500,1000]
-logic(wallet)
-console.log('last wallet:', wallet);
-// today session completed 
+// let aslenotes = [10, 50, 100, 200, 500, 1000];
+// function logic (building){
+//   for(let i = 0;i<building.length;i++){
+//     if(aslenotes.includes(building[i])) {
+//       console.log(`real ha `)
+//     }else{
+//       console.log(`war gya program`)
+//       building[i-1] = 0;
+//       console.log(`saza mili paisaa kat`)
+//     }
+//   }
+// }
+// let wallet = [10,20,30, 50,100,200,500,1000]
+// logic(wallet)
+// console.log('last wallet:', wallet);
+// today session completed
 // complete some exercises
+
+let pocketmoney = [100, 200, 300];
+pocketmoney.forEach((paisa) => {
+  console.log("zaibi kai pas ha " + paisa);
+});
