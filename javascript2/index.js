@@ -587,4 +587,4 @@ let newarray = users.map((logicsala) => {
   return logicsala;
 });
 console.log(newarray);
-
+// learn map
