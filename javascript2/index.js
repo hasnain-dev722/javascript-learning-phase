@@ -555,18 +555,35 @@
 // console.log(newarray)
 // console.log(numbers)
   
+// let users = [
+//   {name: "hasnain", city: "pindi", device: "android"},
+//   {name: "hasnain", city: "lahore", device: "android"},
+//   {name: "hasnain", city: "islamabad", device: "android"}
+// ]
+// let newarray = users.map((logicsala)=>{
+// if(logicsala.city==="lahore"){
+//   console.log()
+// }else{
+//   // console.log(`you were blocked`)
+//   logicsala.status = "you are blocked"
+// }
+// return logicsala
+// })
+// console.log(newarray);
+
 let users = [
-  {name: "hasnain", city: "pindi", device: "android"},
-  {name: "hasnain", city: "lahore", device: "android"},
-  {name: "hasnain", city: "islamabad", device: "android"}
-]
-let newarray = users.map((logicsala)=>{
-if(logicsala.city==="lahore"){
-  console.log()
-}else{
-  // console.log(`you were blocked`)
-  logicsala.status = "you are blocked"
-}
-return logicsala
-})
+  { name: "naruto", rank: "greatest", chakra: 10000 },
+  { name: "sasuke", rank: "uchiha blood", chakra: 7000 },
+  { name: "madara", rank: "ghost of uchiha", chakra: 9000 },
+];
+let newarray = users.map((logicsala) => {
+  if (logicsala.chakra >=8000) {
+    console.log(`you are now chunin`);
+  } else {
+    // console.log(`you were blocked`)
+    logicsala.rank = "still junin";
+  }
+  return logicsala;
+});
 console.log(newarray);
+
