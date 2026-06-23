@@ -543,7 +543,14 @@
 // today session completed
 // complete some exercises
 
-let pocketmoney = [100, 200, 300];
-pocketmoney.forEach((paisa) => {
-  console.log("zaibi kai pas ha " + paisa);
-});
+// let pocketmoney = [100, 200, 300];
+// pocketmoney.forEach((paisa) => {
+//   console.log("zaibi kai pas ha " + paisa);
+// });
+ 
+let numbers = [100 ,200, 300];
+let newarray = numbers.map((paisy)=>{
+return paisy + 10
+})
+console.log(newarray)
+console.log(numbers)
