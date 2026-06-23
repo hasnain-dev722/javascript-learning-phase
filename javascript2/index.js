@@ -548,9 +548,25 @@
 //   console.log("zaibi kai pas ha " + paisa);
 // });
  
-let numbers = [100 ,200, 300];
-let newarray = numbers.map((paisy)=>{
-return paisy + 10
+// let numbers = [100 ,200, 300];
+// let newarray = numbers.map((paisy)=>{
+// return paisy + 10
+// })
+// console.log(newarray)
+// console.log(numbers)
+  
+let users = [
+  {name: "hasnain", city: "pindi", device: "android"},
+  {name: "hasnain", city: "lahore", device: "android"},
+  {name: "hasnain", city: "islamabad", device: "android"}
+]
+let newarray = users.map((logicsala)=>{
+if(logicsala.city==="lahore"){
+  console.log()
+}else{
+  // console.log(`you were blocked`)
+  logicsala.status = "you are blocked"
+}
+return logicsala
 })
-console.log(newarray)
-console.log(numbers)
+console.log(newarray);
