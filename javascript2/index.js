@@ -591,8 +591,8 @@
 
 let ages = [10, 15, 20, 30, 40]
 
-let newarray = ages.red((x, y)=>{
-    return hasnain>= 18;
-})
+let newarray = ages.reduce((x, y)=>{
+    return x + y;
+}, 0)
 console.log(newarray);
 
