@@ -571,20 +571,28 @@
 // })
 // console.log(newarray);
 
-let users = [
-  { name: "naruto", rank: "greatest", chakra: 10000 },
-  { name: "sasuke", rank: "uchiha blood", chakra: 7000 },
-  { name: "madara", rank: "ghost of uchiha", chakra: 9000 },
-];
-let newarray = users.map((logicsala) => {
-  if (logicsala.chakra >=8000) {
-    // console.log(`you are now chunin`);
-    logicsala.rank = "junin"
-  } else {
-    // console.log(`you were blocked`)
-    logicsala.rank = "still junin";
-  }
-  return logicsala;
-});
+// let users = [
+//   { name: "naruto", rank: "greatest", chakra: 10000 },
+//   { name: "sasuke", rank: "uchiha blood", chakra: 7000 },
+//   { name: "madara", rank: "ghost of uchiha", chakra: 9000 },
+// ];
+// let newarray = users.map((logicsala) => {
+//   if (logicsala.chakra >=8000) {
+//     // console.log(`you are now chunin`);
+//     logicsala.rank = "junin"
+//   } else {
+//     // console.log(`you were blocked`)
+//     logicsala.rank = "still junin";
+//   }
+//   return logicsala;
+// });
+// console.log(newarray);
+// // learn map
+
+let ages = [10, 15, 20, 30, 40]
+
+let newarray = ages.red((x, y)=>{
+    return hasnain>= 18;
+})
 console.log(newarray);
-// learn map
+
