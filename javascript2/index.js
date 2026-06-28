@@ -602,22 +602,24 @@ let freinds = [
     {name: "shazaib"},
     {name: "rizwan"},
 
-]
+];
 
 let newarray = freinds.map((assigning)=>{
-if(freinds.name.length>6){
-    console.log("your house is now grifindor");
+if(assigning.name.length<6){
+    assigning.house = "grifindor"
 }
-else if(freinds.name.length<=6 && freinds.name.length>8){
-   console.log('you are in hufflepuff house');
+else if(assigning.name.length>=6 && assigning.name.length<8){
+   assigning.house = "hufflepuff"
    
 }
-else if (freinds.name.length<=8 && freinds.name.length>11){
-    console.log('you are in ravenclaw house');
+else if (assigning.name.length>=8 && assigning.name.length<11){
+    assigning.house = "ravenclaw"; 
     
 }
-else if(freinds.name.length<=11){
-    console.log('you are in slytherin');
+else if(assigning.name.length>=11){
+    assigning.house = "slytherin";
     
 }
+return assigning;
 })
+console.log(newarray);
