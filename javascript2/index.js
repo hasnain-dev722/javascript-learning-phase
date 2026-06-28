@@ -589,10 +589,28 @@
 // console.log(newarray);
 // // learn map
 
-let ages = [10, 15, 20, 30, 40]
+// let ages = [10, 15, 20, 30, 40]
 
-let newarray = ages.reduce((x, y)=>{
-    return x + y;
-}, 0)
-console.log(newarray);
+// let newarray = ages.reduce((x, y)=>{
+//     return x + y;
+// }, 0)
+// console.log(newarray);
 
+let freinds = [
+    {name: "hasnain"},
+    {name: "ahsan"},
+    {name: "shazaib"},
+    {name: "rizwan"},
+
+]
+
+let newarray = freinds.map((assigning)=>{
+if(freinds.name.length>6){
+    console.log("your house is now grifindor")
+}
+else if(freinds.name.length<=6 && freinds.name.length>8){
+   console.log('you are in hufflepuff house');
+   
+}
+else if (freinds.name.length<=8 && freinds.name.length)
+})
