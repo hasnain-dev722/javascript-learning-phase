@@ -606,7 +606,7 @@ let freinds = [
 
 let newarray = freinds.map((assigning)=>{
 if(freinds.name.length>6){
-    console.log("your house is now grifindor")
+    console.log("your house is now grifindor");
 }
 else if(freinds.name.length<=6 && freinds.name.length>8){
    console.log('you are in hufflepuff house');
@@ -614,6 +614,10 @@ else if(freinds.name.length<=6 && freinds.name.length>8){
 }
 else if (freinds.name.length<=8 && freinds.name.length>11){
     console.log('you are in ravenclaw house');
+    
+}
+else if(freinds.name.length<=11){
+    console.log('you are in slytherin');
     
 }
 })
