@@ -612,5 +612,8 @@ else if(freinds.name.length<=6 && freinds.name.length>8){
    console.log('you are in hufflepuff house');
    
 }
-else if (freinds.name.length<=8 && freinds.name.length)
+else if (freinds.name.length<=8 && freinds.name.length>11){
+    console.log('you are in ravenclaw house');
+    
+}
 })
