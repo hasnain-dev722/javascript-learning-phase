@@ -648,9 +648,12 @@
 
 let count = 0;
 let mytimer = setInterval(function(){
-if(mytimer === 5){
-    
-    console.log('ruk gye jai timer');
+    count++;
+    console.log("counter", count);
+if(count === 5){
+    clearInterval(mytimer);
+    console.log('bs krdai ab million tk ginu mai');
     
 }
-},5000)
+},1000)
+
