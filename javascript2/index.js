@@ -638,6 +638,7 @@
 // }
 // console.log(names.last());
 
+// mastering intervals
 
 let alertbox = document.querySelector(".alert")
 
