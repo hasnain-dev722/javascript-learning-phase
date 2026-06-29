@@ -596,30 +596,44 @@
 // }, 0)
 // console.log(newarray);
 
-let freinds = [
-    {name: "hasnain"},
-    {name: "ahsan"},
-    {name: "shazaib"},
-    {name: "rizwan"},
+// let freinds = [
+//     {name: "hasnain"},
+//     {name: "ahsan"},
+//     {name: "shazaib"},
+//     {name: "rizwan"},
 
-];
+// ];
 
-let newarray = freinds.map((assigning)=>{
-if(assigning.name.length<6){
-    assigning.house = "grifindor"
-}
-else if(assigning.name.length>=6 && assigning.name.length<8){
-   assigning.house = "hufflepuff"
+// let newarray = freinds.map((assigning)=>{
+// if(assigning.name.length<6){
+//     assigning.house = "grifindor"
+// }
+// else if(assigning.name.length>=6 && assigning.name.length<8){
+//    assigning.house = "hufflepuff"
    
-}
-else if (assigning.name.length>=8 && assigning.name.length<11){
-    assigning.house = "ravenclaw"; 
+// }
+// else if (assigning.name.length>=8 && assigning.name.length<11){
+//     assigning.house = "ravenclaw"; 
     
-}
-else if(assigning.name.length>=11){
-    assigning.house = "slytherin";
+// }
+// else if(assigning.name.length>=11){
+//     assigning.house = "slytherin";
     
+// }
+// return assigning;
+// })
+// console.log(newarray);
+
+
+let names = ["hasnain", "zaibi", "rizwan"];
+
+Array.prototype.last = function(){
+    if(this.length === 0){
+        return -1;
+    }
+    else{
+        return this[this.length -1];
+
+    }
 }
-return assigning;
-})
-console.log(newarray);
+console.log(names.last());
