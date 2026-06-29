@@ -640,8 +640,17 @@
 
 // mastering intervals
 
-let alertbox = document.querySelector(".alert")
+// let alertbox = document.querySelector(".alert")
 
-setTimeout(function() {
-    alertbox.style.display= "none";
-},5000);
+// setTimeout(function() {
+//     alertbox.style.display= "none";
+// },5000);
+
+let count = 0;
+let mytimer = setInterval(function(){
+if(mytimer === 5){
+    
+    console.log('ruk gye jai timer');
+    
+}
+},5000)
