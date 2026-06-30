@@ -646,14 +646,22 @@
 //     alertbox.style.display= "none";
 // },5000);
 
-let count = 0;
-let mytimer = setInterval(function(){
-    count++;
-    console.log("counter", count);
-if(count === 5){
-    clearInterval(mytimer);
-    console.log('bs krdai ab million tk ginu mai');
+// let count = 0;
+// let mytimer = setInterval(function(){
+//     count++;
+//     console.log("counter", count);
+// if(count === 5){
+//     clearInterval(mytimer);
+//     console.log('bs krdai ab million tk ginu mai');
     
-}
-},1000)
+// }
+// },1000)
 
+
+function createcounter(n){
+    
+    return ()=>{
+        return n++;
+    };
+}
+createcounter();
