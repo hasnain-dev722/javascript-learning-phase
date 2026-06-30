@@ -104,3 +104,5 @@ function names (dost){
 let yar = ["hasnain", "zaibi","ali", "rizwan"]
 yar.pop()
 names(yar)
+ 
+// learn keyup

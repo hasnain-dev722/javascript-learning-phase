@@ -10,7 +10,7 @@ const myinput = document.querySelector("input");
 myinput.addEventListener("keyup", function (event) {
   console.log("user nai dabaya:", event.key);
 });
-// learn keyup
+
 // learn if you have to do something with input you have to do something with .value
 // learn how to add variables in set setInterval
 // learn and solve exercise with setInterval

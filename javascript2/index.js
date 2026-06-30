@@ -658,10 +658,10 @@
 // },1000)
 
 
-function createcounter(n){
+// function createcounter(n){
     
-    return ()=>{
-        return n++;
-    };
-}
-createcounter();
+//     return ()=>{
+//         return n++;
+//     };
+// }
+// createcounter();
