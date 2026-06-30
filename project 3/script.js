@@ -13,3 +13,4 @@ myinput.addEventListener("keyup", function (event) {
 // learn keyup
 // learn if you have to do something with input you have to do something with .value
 // learn how to add variables in set setInterval
+// learn and solve exercise with setInterval
