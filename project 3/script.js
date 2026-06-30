@@ -11,3 +11,4 @@ myinput.addEventListener("keyup", function (event) {
   console.log("user nai dabaya:", event.key);
 });
 // learn keyup
+// learn if you have to do something with input you have to do something with .value
