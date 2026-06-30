@@ -12,6 +12,6 @@ myinput.addEventListener("keyup", function (event) {
 });
 
 
-// learn how to add variables in set setInterval
+
 // learn and solve exercise with setInterval
 // learn how to break logic in steps
