@@ -106,3 +106,4 @@ yar.pop()
 names(yar)
  
 // learn keyup
+// learn if you have to do something with input you have to do something with .value
