@@ -10,3 +10,4 @@ const myinput = document.querySelector("input");
 myinput.addEventListener("keyup", function (event) {
   console.log("user nai dabaya:", event.key);
 });
+// learn keyup
