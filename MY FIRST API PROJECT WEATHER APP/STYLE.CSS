@@ -7,7 +7,7 @@
   margin-top: 10px;
 }
 .btn {
-  height: 43px;
+  height: 44px;
   width: 8%;
   display: inline-block;
   vertical-align: middle;
@@ -17,4 +17,29 @@
   outline: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.btn:active {
+  background-color: #bbf3c0;
+  transform: scale(0.95);
+}
+.search {
+  height: 40px;
+  width: 20%;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  border: 0.5px solid #c56187;
+  transition: all 0.3 ease;
+  border-radius: 5px;
+  padding-left: 10px;
+  border-color: #00f2fe;
+  box-shadow: 0 0 5px rgba(0, 242, 242, 0.8);
+  cursor: pointer;
+}
+.search:hover {
+  border-color: #27db78;
+}
+.search:focus {
+  border-color: #00f2fe;
+  box-shadow: 0 0 5px rgba(197, 7, 96, 0.8);
 }
